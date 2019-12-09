@@ -2,21 +2,31 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.red {
+  color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bold{
+  font-weight: bold;
+}
+
+.Button{
+  background-color: green;
   color: white;
+  border: 1px solid blue;
+  padding: 8px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #09d3ac;
+.Button:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+.Button.Red{
+  background-color: red;
+}
+
+.Button.Red:hover{
+  background-color: salmon;
 }
